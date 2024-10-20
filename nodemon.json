@@ -1,0 +1,7 @@
+{
+    "watch": ["src/*.ts","src/**/*.ts"],
+    "execMap":{
+        "ts":"ts-node"
+    },
+     "ext": "js, json, ts, proto"
+}
