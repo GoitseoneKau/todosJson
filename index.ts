@@ -2,7 +2,7 @@
 //insert "type":"module" in package.json in order to use imports
 import express, { Request, Response } from 'express';
 import cors from 'cors'
-import userRoutes from './routes/users.js'
+import userRoutes from './src/routes/users.js'
 
 const PORT = process.env.PORT || 8000;
 const app = express()

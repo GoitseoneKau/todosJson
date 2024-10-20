@@ -8,8 +8,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "moduleResolution": "Node16"
+    "moduleResolution": "Node16",
   },
-  "include": ["src/*.ts","src/**/*.ts","src/***/**/*.ts"],
+  "include": ["public/*.html","**/*.ts","*.ts,src/*.ts","src/**/*.ts","src/***/**/*.ts"],
   "exclude": ["node_modules"]
 }
