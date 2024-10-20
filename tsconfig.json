@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "ESNext",
     "module":"NodeNext",
     "outDir": "./dist",
     "strict": true,
@@ -8,7 +8,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "moduleResolution": "Node16",
+    "moduleResolution": "NodeNext",
   },
   "include": ["*.ts","**/*.ts","*.ts,src/*.ts","src/**/*.ts","src/***/**/*.ts"],
   "exclude": ["node_modules"]

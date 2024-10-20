@@ -9,7 +9,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx --env-file=.env index.ts",
-    "build": "rollup -c",
+    "build": "tsc -b  ./tsconfig.esm.json",
     "serve": "tsx dist/index.mjs"
   },
   "exports": {
@@ -21,8 +21,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^12.1.1",
+
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/nodemon": "^1.19.6",
@@ -32,7 +31,6 @@
     "express": "^4.21.1",
     "nodemon": "^3.1.7",
     "pkgroll": "^2.5.0",
-    "rollup": "^4.24.0",
     "ts-node": "^10.9.2",
     "tslib": "^2.8.0",
     "tsx": "^4.19.1",
@@ -40,7 +38,6 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "@rollup/plugin-json": "^6.1.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.7.7",
