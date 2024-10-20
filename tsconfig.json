@@ -10,6 +10,6 @@
     "resolveJsonModule": true,
     "moduleResolution": "Node16",
   },
-  "include": ["public/*.html","**/*.ts","*.ts,src/*.ts","src/**/*.ts","src/***/**/*.ts"],
+  "include": ["*.ts","**/*.ts","*.ts,src/*.ts","src/**/*.ts","src/***/**/*.ts"],
   "exclude": ["node_modules"]
 }
