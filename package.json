@@ -10,7 +10,7 @@
   "scripts": {
     "start": "tsx --env-file=.env index.ts",
     "build": "tsc -b  ./tsconfig.esm.json",
-    "serve": "tsx dist/index.mjs"
+    "serve": "tsx ./dist/index.js"
   },
   "exports": {
     "import": {
